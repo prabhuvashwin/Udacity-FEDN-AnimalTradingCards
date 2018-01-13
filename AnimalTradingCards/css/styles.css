@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  color: #1664bc;
+}
+
+.card {
+  height: 475px;
+  width: 325px;
+  box-shadow: 0px 5px 5px 0px #190c70;
+  border: 1px solid #370856;
+  border-radius: 4px;
+}
+
+.image {
+  height: 40%;
+  padding: 0px 4px;
+  background: url("../images/panda.jpg");
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  background-size: cover;
+}
+
+.name {
+  height: 5%;
+  padding: 0px 4px;
+  text-align: center;
+  vertical-align: middle;
+  border: .5px solid #FFFFFF;
+  color: #ffffff;
+  background-color: #11011c;
+  border-radius: 5px;
+}
+
+.info {
+  height: 55%;
+  font-size: 14px;
+}
+
+.facts {
+  border-radius: 4px;
+  padding: 4px 4px;
+  border: 1px solid #000000;
+  list-style: none;
+  margin: 2px;
+  background-color: #a3a0a5;
+}
+
+.fact {
+  color: #004402;
+}
+
+.fact:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  cursor: text;
+}
+
+.moreinfo {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.red {
+  color: red;
+}
